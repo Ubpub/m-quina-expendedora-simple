@@ -58,7 +58,7 @@ public class MaquinaExpendedoraSimple {
         return totalDineroAcumulado;
     }
     
-    public void setVaciarDinero() {
+    public void setVaciarDepositoDinero() {
         totalDineroAcumulado = 0;
     }
 
