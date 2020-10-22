@@ -57,6 +57,10 @@ public class MaquinaExpendedoraSimple {
     public int getTotalDineroAcumulado() {
         return totalDineroAcumulado;
     }
+    
+    public void setVaciarDinero() {
+        totalDineroAcumulado = 0;
+    }
 
     /**
      * Simula la introduccion de dinero por parte del cliente actual
